@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #FFFDED;
+    width: 1260px;
+    position: fixed;
+    z-index: 2;
+    margin-top: 0px;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    color: #3a706e;
+    text-align: center;
+    padding: 16px 37px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+  }
+  #navbar a:hover {
+    background-color: #beedec;
+    color: black;
+  }
+
+  #navbar a.active {
+    background-color: #0bc4b4;
+    color: white;
+  }
+  
+ /* Page content */
+.content {
+    padding: 16px;
+  }
+  .search{
+    padding: 6px;
+    margin-top: 10px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: solid;
+    border-radius: 40px;
+    border-color: rgb(69, 118, 101);
+  }
+  .head{
+    height: 200px;
+  }
+  .center{
+    position: absolute;
+    top: 25%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: #FFFDED;
+    letter-spacing: 1px;
+    font-size: 3em;
+    font-family:fantasy;
+    text-shadow: 4px 4px 6px #000000;
+  }
+  .center-2{
+    position: absolute;
+    top: 35%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: #FFFDED;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    text-shadow: 4px 4px 6px #000000;
+  }
+  .restaurants{
+    display:inline-flex;
+    text-align: center;
+  }
+  .container{
+    height: 90px;
+    display: flex;
+    background-color: #FFFDED;
+    margin-top: 80px;
+    margin-left: 150px;
+    border-radius: 45px;
+  }
+  .container-1{
+    height: 90px;
+    display: flex;
+    background-color: #FFFDED;
+    border-radius: 45px;
+  }
+  .teriyaki_dp{
+    border-radius: 50%;
+  }
+  .teriyaki_trail{
+    width: 350px;
+    text-align: center;
+    font-size: large;
+    padding-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+   
+  }
+  .teriyaki_trail a{
+    text-decoration: none;
+    transition-duration: 0.4s;
+  }
+   .teriyaki_trail a:hover{
+    color: darkslategray;
+    background-color: #eac380;
+  }
+  .harvestcafe_dp{
+    border-radius: 50%;
+  }
+  .harvest a:hover{
+    color: darkslategray;
+    background-color: #eac380;
+  }
+  .harvest{
+    width: 350px;
+    text-align: center;
+    font-size: large;
+    padding-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .timbercafe_dp{
+    border-radius: 50%;
+  }
+  .timber{
+    width: 350px;
+    text-align: center;
+    font-size: large;
+    padding-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .timber a:hover{
+    color: darkslategray;
+    background-color: #eac380;
+  }
+  .seoul_dp{
+    border-radius: 50%;
+  }
+  .seoul{
+    width: 350px;
+    text-align: center;
+    font-size: large;
+    padding-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .seoul a:hover{
+    color: darkslategray;
+    background-color: #eac380;
+  }

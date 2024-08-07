@@ -1,0 +1,168 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #FFFDED;
+  width: 1260px;
+  position: fixed;
+  z-index: 2;
+  margin-top: 0px;
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  color: #3a706e;
+  text-align: center;
+  padding: 16px 37px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 1px;
+}
+#navbar a:hover {
+  background-color: #beedec;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #0bc4b4;
+  color: white;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+.search{
+  padding: 6px;
+  margin-top: 10px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: solid;
+  border-radius: 40px;
+  border-color: rgb(69, 118, 101);
+}
+.menu{
+  justify-content: center;
+  display: inline-flex;
+}
+.wrapper{
+  position: absolute;
+  top: 30%;
+  left:10%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+}
+.container{
+  border-radius: 50%;
+  margin: 0px;
+}
+.teriyaki_dp{
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+.qoute{
+  position: absolute;
+  top: 77%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: xx-large;
+  text-shadow: 2px 2px 4px #000000;
+}
+.View_menu a{
+    height: 70px;
+    width: 350px;
+    padding-top: 5px;
+    border: solid 1px white;
+    border-radius: 15%;
+    position: absolute;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    text-decoration: none;
+    text-align: center;
+    font-family:fantasy;
+    transition-duration: 0.4s;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  .View_menu a:hover{
+    color: darkslategray;
+    background-color: #FFFDED;
+  }
+  .gallery{
+    display: flex;
+    gap: 10px;
+    margin-left: 18px;
+  }
+  .gallery_head{
+    height: 80px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: xx-large;
+    color: #587b7e;
+
+  }
+  .Gallery-1{
+    width: 300px;
+    height: 300px;
+  }
+  .Gallery-2{
+    width: 300px;
+    height: 300px;
+  }
+  .Gallery-3{
+    width: 300px;
+    height: 300px;
+  }
+  .Gallery-4{
+    width: 300px;
+    height: 300px;
+  }
+  .gallery1{
+    display: flex;
+    gap: 10px;
+    margin-left: 18px;
+    margin-top: 6px;
+  }
+  .Gallery-5{
+    width: 300px;
+    height: 300px;
+  }
+  .Gallery-6{
+    width: 300px;
+    height: 300px;
+  }
+  .Gallery-7{
+    width: 300px;
+    height: 300px;
+  }
+  .Gallery-8{
+    width: 300px;
+    height: 300px;
+  }
+  .footer{
+    height: 250px;
+    text-align: center;
+    background-color:#FFFDED ;
+    border: solid 2px rgb(123, 121, 121);
+}
+.footer-div{
+  display: inline-flex;
+  gap: 150px;
+  margin-top: 50px;
+}
+.foot{
+  font-size: large;
+}
+
